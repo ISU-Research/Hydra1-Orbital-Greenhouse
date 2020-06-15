@@ -1,0 +1,1 @@
+Hydra 1 is a 1.25 U, hermetically sealed payload designed to support plant growth in space. The design files included here were flown to ISS and operated via the SAS Ice Cubes rack. Details will be released with acceptance of our forthcoming publication. 

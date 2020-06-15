@@ -1,0 +1,7 @@
+#!/bin/bash
+
+targetpid=$(ps -ef|grep 'Hydra1.py'|grep -v 'grep'|awk '{ printf $2 }')
+echo "targetpid" $targetpid
+echo CaptureImage > /proc/$targetpid/fd/0
+
+

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+targetpid=$(ps -ef|grep 'Hydra1.py'|grep -v 'grep'|awk '{ printf $2}')
+echo "targetpid" $targetpid
+echo StopWhiteLED > /proc/$targetpid/fd/0
+
